@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja um Parceiro Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-items">
+                <li><a href="#">Ofereça</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">A Card</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Formulário</a></li>
+            </ul>
+            <div class="logo">
+                <img src="../public/images/logo-card-laranja.webp" alt="Logo Card" />
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <img src="../public/images/banner1.svg" alt="Banner Promocional" class="banner-img">
+        <div class="banner-content">
+            <h2>Aumente o fluxo do seu estabelecimento</h2>
+            <p>Seja um parceiro Card e conquiste mais clientes agora mesmo!</p>
+            <a href="#formulario" class="banner-button">Cadastre-se Agora</a>
+        </div>
+    </section>
+    <main>
+        <form action="/submit" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="emial" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li><a href="#">Ofereça</a></li>
+                <li><a href="#">Soluções</a></li>
+                <li><a href="#">A Card</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Formulário</a></li>
+            </ul>
+            <p>&copy; 2024 Card - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
